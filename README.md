@@ -10,13 +10,13 @@ comfortable with it being reviewed.
 
 ## Description
 
-The requirement of this exercise is to plan and test the provided service, both manual and automated.
+The requirement of this exercise is to test the provided service, both manual and automated.
 
 For the manual part you need to define at least 10 test cases. 
 _They can be documented in any file format and committed in the repository._
  
  For the automation part, you need to automate 3 of the previously defined test cases.
-_They can be written in any programming language or postman and they need to be commited in the repository._
+_They can be written in any programming language or postman and they need to be committed in the repository._
 
 You can find the service description at: https://github.com/welthee/dinonce.
 
@@ -25,7 +25,7 @@ You can use it with https://petstore.swagger.io/.
 
 In order to start the service locally you will need to:
 - install docker-compose
-- clone 
+- clone https://github.com/welthee/interview-qa-dinonce
 - go to <cloned_path>/interview-qa-dinonce and run `docker-compose up` command
 
 The service will be available at: http://localhost:5010
