@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  psql:
+    image: postgres:14.1
+    environment:
+      POSTGRES_PASSWORD: postgres
+
+  dinonce:
+    image: welthee/dinonce:0.4.1
+    volumes:
+      - .config:/opt/dinonce/config:ro
+    ports:
+      - "5010:5010"
+    depends_on:
+      - "psql"
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 5
+        window: 120s
+

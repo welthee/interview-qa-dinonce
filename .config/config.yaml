@@ -1,0 +1,8 @@
+backendKind: postgres
+backendConfig:
+  host: psql
+  port: 5432
+  user: postgres
+  password: postgres
+  databaseName: postgres
+
