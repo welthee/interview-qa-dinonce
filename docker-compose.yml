@@ -7,7 +7,7 @@ services:
       POSTGRES_PASSWORD: postgres
 
   dinonce:
-    image: welthee/dinonce:0.4.1
+    image: welthee/dinonce:0.5.0
     volumes:
       - .config:/opt/dinonce/config:ro
     ports:

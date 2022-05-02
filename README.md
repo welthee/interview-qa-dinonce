@@ -16,7 +16,7 @@ For the manual part you need to define at least 10 test cases.
 _They can be documented in any file format and committed in the repository._
  
  For the automation part, you need to automate 3 of the previously defined test cases.
-_They can be written in any programming language or postman and they need to be committed in the repository._
+_They can be written in any programming language and they need to be committed in the repository._
 
 You can find the service description at: https://github.com/welthee/dinonce.
 
